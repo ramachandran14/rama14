@@ -1,0 +1,61 @@
+[ {
+"id" : "1",
+"street" : "crypts",
+"city" : "Winterfell",
+"postal_code" : "600089"
+},
+{
+"id" : "2",
+"street" : "redkeep",
+"city" : "Kings landing",
+"postal_code" : "600034"
+},
+{
+"id" : "3",
+"street" : "war table",
+"city" : "Dragon stone",
+"postal_code" : "600065"
+},
+{
+"id" : "4",
+"street" : "yard",
+"city" : "Dorne",
+"postal_code" : "600091"
+},
+{
+"id" : "5",
+"street" : "wall",
+"city" : "Castle black",
+"postal_code" : "600107"
+},
+{
+"id" : "6",
+"street" : "trident",
+"city" : "River run",
+"postal_code" : "500083"
+},
+{
+"id" : "7",
+"street" : "pyke",
+"city" : "Iron islands",
+"postal_code" : "700042"
+},
+{
+"id" : "8",
+"street" : "court",
+"city" : "High garden",
+"postal_code" : "300078"
+},
+{
+"id" : "9",
+"street" : "pit",
+"city" : "Valyria",
+"postal_code" : "600990"
+},
+{
+"id" : "10",
+"street" : "pyramid",
+"city" : "Mereen",
+"postal_code" : "700098"
+}]
+

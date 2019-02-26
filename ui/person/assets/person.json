@@ -1,0 +1,4 @@
+{
+  "bar" : "Hello",
+  "baz" : [ "quuz", "norf" ]
+}

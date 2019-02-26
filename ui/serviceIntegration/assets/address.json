@@ -1,0 +1,38 @@
+[ {
+"id" : "1",
+"street" : "ajith nagar",
+"city" : "chennai",
+"postal_code" : "627672"
+},
+{
+"id" : "2",
+"street" : "samuel nagar",
+"city" : "salem",
+"postal_code" : "268722"
+},
+{
+"id" : "3",
+"street" : "suhil nagar",
+"city" : "trichy",
+"postal_code" : "600065"
+},
+{
+"id" : "4",
+"street" : "gowtham nagar",
+"city" : "tirupur",
+"postal_code" : "600091"
+},
+{
+"id" : "5",
+"street" : "ram nagar",
+"city" : "chennai",
+"postal_code" : "573683"
+},
+
+{
+"id" : "6",
+"street" : "farac nagar",
+"city" : "vellore",
+"postal_code" : "267333"
+} ]
+

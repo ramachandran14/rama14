@@ -1,0 +1,31 @@
+Problem statement:
+                get classname and print the entire details of the class
+
+Event:
+    Developer running the java command
+
+Start state:
+            Existence of java command in the console
+
+End state:
+            Print the entire details of the class
+
+Jobs to be done:
+                ->Execute the program
+
+                ->get classname from developer
+
+                ->get fields for the class 
+                    ->get details for field
+
+                ->get constructor for the class
+                    ->get details for constructor
+
+                ->get methods for the class
+                    ->get details for method
+
+                ->get console from the system
+
+                ->print the information of the class
+
+                ->display the console

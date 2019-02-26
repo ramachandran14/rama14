@@ -1,0 +1,41 @@
+th, td, p, input {
+            font:14px Verdana;
+        }
+table, th, td 
+        {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+th {
+            font-weight:bold;
+        }
+.margin-column {
+  float: left;
+  background: #41B9D2;
+  height: 1021px;
+  width: 10%;
+}
+.table {
+  background: #5D7EB0;
+  padding: 230px;
+  float: right;
+  width: 65%;
+  height: 10px;
+}
+.textbox {
+  background: #ED8694;
+  padding: 230px;
+  float: right;
+  width: 65%;
+  height: 10px;
+}
+.Add {
+  padding:10px;
+  float: right;
+}
+.submit {
+  float: right;
+padding: 10px;  
+}

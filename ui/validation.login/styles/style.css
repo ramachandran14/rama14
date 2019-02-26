@@ -1,0 +1,39 @@
+body{
+background-image: url("../assets/computer.jpg"); 
+background-size: cover;
+}
+
+.content {
+  background: #eceeee;
+  border: 1px solid #42464b;
+  border-radius: 10px;
+  height: 300px;
+  margin: 300px auto 0;
+  width: 400px;
+  box-shadow:10px 10px 10px #000;
+  margin-left: 700px;
+  opacity: 0.9;
+}
+
+h1 {
+color: #43ACE5; 
+}
+span{
+color: #D07324;
+}
+
+.input-tab {
+  padding: 8px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: #EAE8DC;
+  width:300px;
+  border-radius:5px;
+}
+
+.button-tab{
+  background-color:#3277B6;
+  color: #FFFFFF;
+}
+
+

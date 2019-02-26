@@ -1,0 +1,3 @@
+Url=jdbc:mysql://pc1620:3306/ramachandran_s?useSSL=false
+user=ramachandran_s
+password=demo

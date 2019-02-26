@@ -1,0 +1,10 @@
+model\PojoServiceAddress.class
+utility\AppException.class
+service\ServiceAddress.class
+service\ServicePerson.class
+utility\JsonConverter.class
+utility\QueryStatement.class
+utility\BeanFactory.class
+utility\ErrCode.class
+model\PojoServicePerson.class
+utility\ConnectionManager.class

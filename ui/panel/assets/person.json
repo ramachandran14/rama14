@@ -1,0 +1,19 @@
+[ {
+  "pId" : 1,
+  "firstName" : "Karthik",
+  "lastName" : "Aadhin",
+  "mailId" : "karthik@aadin.com",
+  "birthDate" : "1997-02-10"
+}, {
+  "pId" : 2,
+  "firstName" : "Vignesh",
+  "lastName" : "Manoharan",
+  "mailId" : "vignesh@manoharan.com",
+  "birthDate" : "1997-02-10"
+}, {
+  "pId" : 3,
+  "firstName" : "karthik",
+  "lastName" : "narayanan",
+  "mailId" : "karthik@narayanan.com",
+  "birthDate" : "1997-02-10"
+} ]

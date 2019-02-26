@@ -1,0 +1,41 @@
+.margin-column {
+  float: left;
+  background: #41B9D2;
+  height: 982px;
+  width: 10%;
+}
+.table {
+  background: #5D7EB0;
+  padding: 230px;
+  float: right;
+  width: 65%;
+  height: 10px;
+}
+.textbox {
+  background: #ED8694;
+  padding: 230px;
+  float: right;
+  width: 65%;
+  height: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.Add {
+  padding:10px;
+  float: right;
+}
+.submit {
+  float: right;
+padding: 10px;  
+}

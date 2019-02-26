@@ -1,0 +1,9 @@
+@startuml
+
+User->Homepage:onClickmovie()
+Homepage->Homepage:loadDetails()
+Homepage->API:getMovieslist()
+API->API:loadMovieslist()
+API->Movielist:displayMovieslist()
+
+@enduml

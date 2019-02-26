@@ -1,0 +1,9 @@
+@startuml
+
+actor User
+Theatrelist->User:getTheatrenames()
+User->Theatrelist:theatrename
+Theatrelist->Theatrelist:processTheatredetails()
+Theatrelist->confirmation:provideDetails()
+
+@enduml

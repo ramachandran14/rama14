@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+}
+
+.lsp-panel {
+  background-color: green;
+  width:200px;
+  height: 100%;
+  position: absolute;
+}
+
+ul {
+  list-style-type: Verdana;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #D3EAFD;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.rsp-panel {
+  background-color: darkcyan;
+  width: 1720px;
+  height: 100%;
+  position: absolute;
+  left: 200px;
+}

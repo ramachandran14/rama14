@@ -1,0 +1,9 @@
+String hannah = "Did Hannah see bees? Hannah did.";
+
+
+SOLUTION:
+        -> hannah.length() = 32
+        -> hannah.charAt(12) = e        
+        -> b = hannah.charAt(15)
+
+

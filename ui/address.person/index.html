@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body onLoad="get()">
+    <div>
+      <div class="navbar">
+        <ul>
+          <li><a href="#Address"
+                 type="button"
+                 value="Address"
+                 id="showAddressTable">Address</a></li>
+          <li><a href="#Person"
+                 type="button"
+                 value="Address"
+                 id="showPersonTable">Person</a></li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="header-text">Person Management System</div>
+      </div>
+      <div class="table-tab" >
+        <div class="input-tab">
+          <input class="search-icon"
+                 id="myInput" 
+                 onkeyup="search()"
+                 type="text" 
+                 placeholder="search"  />
+        </div>
+        <button class="search-tab" 
+                align="left">SEARCH</button></br>
+        <button class="button-tab" 
+                align="left">ADD</button></br>
+        <table id="address-table">
+        <tr>
+          <th>Id</th>
+          <th>Street</th>
+          <th>City</th>
+          <th>Postal Code</th>
+        </tr>
+      </table>
+      <table id="person-table">
+        <tr>
+          <th>Id</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Address Id</th>
+          <th>Date of Birth</th>
+        </tr>
+      </table>
+      </div>  
+      <div class="form-tab">
+        <div class="edit-tab" id="form-address">
+          <div>Address Details : </div>
+        </div>
+        <div class="edit-tab" id="form-person">
+          <div>Person Details : </div>
+        </div>
+        <button class="submit-tab" align="left">SUBMIT</button></br>
+      </div>
+    </div>
+    <script src="scripts/table.js"></script>
+  </body>
+</html>

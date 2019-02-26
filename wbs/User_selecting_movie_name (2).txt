@@ -1,0 +1,14 @@
+@startuml
+
+actor User
+Movielist->User:getMovienames()
+User->Movielist:moviename
+Movielist->Movielist:processMoviedetails()
+Movielist->API:getShowdetails()
+API->API:checkShowdetails()
+API->Movielist:noshows
+
+@enduml
+
+
+

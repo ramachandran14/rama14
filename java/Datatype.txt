@@ -1,0 +1,8 @@
+type of result:
+
+100 / 24 -> float
+100.10 / 10 -> float
+'Z' / 2 -> string
+10.5 / 0.5 -> integer
+12.4 % 5.5 -> integer
+100 % 56 -> integer

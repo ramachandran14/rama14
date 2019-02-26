@@ -1,0 +1,8 @@
+<tr id='%rowId%' class='person-record'>
+  <td>%id%</td>
+  <td>%firstName%</td>
+  <td>%lastName%</td>
+  <td>%emailId%</td>
+  <td>%birthDate%</td>
+  <td><button id='%deleteId%' class='person-delete'>Delete</button></td>
+</tr>

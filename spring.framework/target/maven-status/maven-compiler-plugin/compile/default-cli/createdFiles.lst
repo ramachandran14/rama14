@@ -1,0 +1,9 @@
+com\ofs\training\java\service\ServicePerson.class
+com\ofs\training\java\utility\AppException.class
+com\ofs\training\java\service\ServiceAddress.class
+com\ofs\training\java\utility\ErrCode.class
+com\ofs\training\java\pojo\PojoServiceAddress.class
+com\ofs\training\java\pojo\PojoServicePerson.class
+com\ofs\training\java\utility\QueryStatement.class
+com\ofs\training\java\servlets\DemoServlet.class
+com\ofs\training\java\utility\BeanFactory.class

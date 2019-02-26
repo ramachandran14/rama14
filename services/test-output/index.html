@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\ramachandran.s\AppData\Local\Temp\testng-eclipse-1723603828\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 10 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=vignesh, last_name=tharma, email=vig@gmail.com, address_id=0, bi...)">testCreate_positive(PojoServicePerson [id=0, first_name=vignesh, last_name=tharma, email=vig@gmail.com, address_id=0, bi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=harish, last_name=gopi, email=hari@gmail.com, address_id=0, birt...)">testCreate_positive(PojoServicePerson [id=0, first_name=harish, last_name=gopi, email=hari@gmail.com, address_id=0, birt...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=samuel, last_name=praveen, email=sam@gmail.com, address_id=0, bi...)">testCreate_positive(PojoServicePerson [id=0, first_name=samuel, last_name=praveen, email=sam@gmail.com, address_id=0, bi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=praveen, last_name=sabari, email=praveen@gmail.com, address_id=0...)">testCreate_positive(PojoServicePerson [id=0, first_name=praveen, last_name=sabari, email=praveen@gmail.com, address_id=0...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=durai, last_name=raj, email=durai@gmail.com, address_id=0, birth...)">testCreate_positive(PojoServicePerson [id=0, first_name=durai, last_name=raj, email=durai@gmail.com, address_id=0, birth...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=giri, last_name=dharan, email=giri@gmail.com, address_id=0, birt...)">testCreate_positive(PojoServicePerson [id=0, first_name=giri, last_name=dharan, email=giri@gmail.com, address_id=0, birt...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=ajith, last_name=sekar, email=ajith@gmail.com, address_id=18, bi...)">testCreate_positive(PojoServicePerson [id=0, first_name=ajith, last_name=sekar, email=ajith@gmail.com, address_id=18, bi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=ganesh, last_name=chandran, email=gan@gmail.com, address_id=0, b...)">testCreate_positive(PojoServicePerson [id=0, first_name=ganesh, last_name=chandran, email=gan@gmail.com, address_id=0, b...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=ramachandran, last_name=shankar, email=ram@gmail.com, address_id...)">testCreate_positive(PojoServicePerson [id=0, first_name=ramachandran, last_name=shankar, email=ram@gmail.com, address_id...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ofs.training.java.test.ServicePersonTest" hash-for-method="testCreate_positive(PojoServicePerson [id=0, first_name=jai, last_name=ravi, email=jai@gmail.com, address_id=0, birth_da...)">testCreate_positive(PojoServicePerson [id=0, first_name=jai, last_name=ravi, email=jai@gmail.com, address_id=0, birth_da...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ofs.training.java.test.ServicePersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=vignesh, last_name=tharma, email=vig@gmail.com, address_id=0, bi...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=vignesh, last_name=tharma, email=vig@gmail.com, address_id=0, bi...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=vignesh, last_name=tharma, email=vig@gmail.com, address_id=0, birth_date=1716-04-03, created_date=2018-12-21, address=PojoServiceAddress [id=0, street=pawannagar, city=chittur, postal_code=857568], getId()=0, getFirst_name()=vignesh, getLast_name()=tharma, getEmail()=vig@gmail.com, getAddress_id()=0, getBirth_date()=1716-04-03, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=0, street=pawannagar, city=chittur, postal_code=857568], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=282432134, toString()=com.ofs.training.java.pojo.PojoServicePerson@10d59286], PojoServicePerson [id=8, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=8, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=266437232, toString()=com.ofs.training.java.pojo.PojoServicePerson@fe18270])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=harish, last_name=gopi, email=hari@gmail.com, address_id=0, birt...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=harish, last_name=gopi, email=hari@gmail.com, address_id=0, birt...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=harish, last_name=gopi, email=hari@gmail.com, address_id=0, birth_date=1975-08-06, created_date=2018-12-21, address=PojoServiceAddress [id=0, street=tanishnagar, city=chennai, postal_code=576988], getId()=0, getFirst_name()=harish, getLast_name()=gopi, getEmail()=hari@gmail.com, getAddress_id()=0, getBirth_date()=1975-08-06, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=0, street=tanishnagar, city=chennai, postal_code=576988], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=1561408618, toString()=com.ofs.training.java.pojo.PojoServicePerson@5d11346a], PojoServicePerson [id=7, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=7, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=2050404090, toString()=com.ofs.training.java.pojo.PojoServicePerson@7a36aefa])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=samuel, last_name=praveen, email=sam@gmail.com, address_id=0, bi...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=samuel, last_name=praveen, email=sam@gmail.com, address_id=0, bi...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=samuel, last_name=praveen, email=sam@gmail.com, address_id=0, birth_date=1865-06-12, created_date=2018-12-21, address=PojoServiceAddress [id=0, street=laxstreet, city=kanchi, postal_code=586899], getId()=0, getFirst_name()=samuel, getLast_name()=praveen, getEmail()=sam@gmail.com, getAddress_id()=0, getBirth_date()=1865-06-12, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=0, street=laxstreet, city=kanchi, postal_code=586899], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=900008524, toString()=com.ofs.training.java.pojo.PojoServicePerson@35a50a4c], PojoServicePerson [id=10, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=10, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=520232556, toString()=com.ofs.training.java.pojo.PojoServicePerson@1f021e6c])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=praveen, last_name=sabari, email=praveen@gmail.com, address_id=0...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=praveen, last_name=sabari, email=praveen@gmail.com, address_id=0...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=praveen, last_name=sabari, email=praveen@gmail.com, address_id=0, birth_date=1552-06-27, created_date=2018-12-21, address=PojoServiceAddress [id=0, street=kannanstreet, city=kovai, postal_code=682697], getId()=0, getFirst_name()=praveen, getLast_name()=sabari, getEmail()=praveen@gmail.com, getAddress_id()=0, getBirth_date()=1552-06-27, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=0, street=kannanstreet, city=kovai, postal_code=682697], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=1434041222, toString()=com.ofs.training.java.pojo.PojoServicePerson@5579bb86], PojoServicePerson [id=6, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=6, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=1375995437, toString()=com.ofs.training.java.pojo.PojoServicePerson@5204062d])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=durai, last_name=raj, email=durai@gmail.com, address_id=0, birth...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=durai, last_name=raj, email=durai@gmail.com, address_id=0, birth...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=durai, last_name=raj, email=durai@gmail.com, address_id=0, birth_date=1958-07-15, created_date=2018-12-21, address=PojoServiceAddress [id=0, street=karunaistreet, city=vellore, postal_code=748868], getId()=0, getFirst_name()=durai, getLast_name()=raj, getEmail()=durai@gmail.com, getAddress_id()=0, getBirth_date()=1958-07-15, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=0, street=karunaistreet, city=vellore, postal_code=748868], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=1418385211, toString()=com.ofs.training.java.pojo.PojoServicePerson@548ad73b], PojoServicePerson [id=3, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=3, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=1282811396, toString()=com.ofs.training.java.pojo.PojoServicePerson@4c762604])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=giri, last_name=dharan, email=giri@gmail.com, address_id=0, birt...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=giri, last_name=dharan, email=giri@gmail.com, address_id=0, birt...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=giri, last_name=dharan, email=giri@gmail.com, address_id=0, birth_date=1664-04-14, created_date=2018-12-21, address=PojoServiceAddress [id=0, street=gurustreet, city=erode, postal_code=681686], getId()=0, getFirst_name()=giri, getLast_name()=dharan, getEmail()=giri@gmail.com, getAddress_id()=0, getBirth_date()=1664-04-14, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=0, street=gurustreet, city=erode, postal_code=681686], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=1381128261, toString()=com.ofs.training.java.pojo.PojoServicePerson@52525845], PojoServicePerson [id=9, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=9, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=999609945, toString()=com.ofs.training.java.pojo.PojoServicePerson@3b94d659])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=ajith, last_name=sekar, email=ajith@gmail.com, address_id=18, bi...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=ajith, last_name=sekar, email=ajith@gmail.com, address_id=18, bi...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=ajith, last_name=sekar, email=ajith@gmail.com, address_id=18, birth_date=1995-02-17, created_date=2018-12-21, address=PojoServiceAddress [id=18, street=vallalarnagar, city=salem, postal_code=877979], getId()=0, getFirst_name()=ajith, getLast_name()=sekar, getEmail()=ajith@gmail.com, getAddress_id()=18, getBirth_date()=1995-02-17, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=18, street=vallalarnagar, city=salem, postal_code=877979], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=1896294051, toString()=com.ofs.training.java.pojo.PojoServicePerson@710726a3], PojoServicePerson [id=2, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=2, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=1684015092, toString()=com.ofs.training.java.pojo.PojoServicePerson@646007f4])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=ganesh, last_name=chandran, email=gan@gmail.com, address_id=0, b...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=ganesh, last_name=chandran, email=gan@gmail.com, address_id=0, b...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=ganesh, last_name=chandran, email=gan@gmail.com, address_id=0, birth_date=1887-06-18, created_date=2018-12-21, address=PojoServiceAddress [id=0, street=chandranagar, city=trichy, postal_code=676868], getId()=0, getFirst_name()=ganesh, getLast_name()=chandran, getEmail()=gan@gmail.com, getAddress_id()=0, getBirth_date()=1887-06-18, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=0, street=chandranagar, city=trichy, postal_code=676868], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=1883840933, toString()=com.ofs.training.java.pojo.PojoServicePerson@704921a5], PojoServicePerson [id=4, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=4, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=233996206, toString()=com.ofs.training.java.pojo.PojoServicePerson@df27fae])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=ramachandran, last_name=shankar, email=ram@gmail.com, address_id...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=ramachandran, last_name=shankar, email=ram@gmail.com, address_id...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=ramachandran, last_name=shankar, email=ram@gmail.com, address_id=17, birth_date=1996-08-14, created_date=2018-12-21, address=PojoServiceAddress [id=17, street=sainagar, city=chennai, postal_code=668779], getId()=0, getFirst_name()=ramachandran, getLast_name()=shankar, getEmail()=ram@gmail.com, getAddress_id()=17, getBirth_date()=1996-08-14, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=17, street=sainagar, city=chennai, postal_code=668779], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=2092769598, toString()=com.ofs.training.java.pojo.PojoServicePerson@7cbd213e], PojoServicePerson [id=1, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=1, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=422392391, toString()=com.ofs.training.java.pojo.PojoServicePerson@192d3247])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate_positive(PojoServicePerson [id=0, first_name=jai, last_name=ravi, email=jai@gmail.com, address_id=0, birth_da...)">
+                  </a> <!-- testCreate_positive(PojoServicePerson [id=0, first_name=jai, last_name=ravi, email=jai@gmail.com, address_id=0, birth_da...) -->
+                  <span class="method-name">testCreate_positive</span>
+                  <span class="parameters">(PojoServicePerson [id=0, first_name=jai, last_name=ravi, email=jai@gmail.com, address_id=0, birth_date=1767-04-04, created_date=2018-12-21, address=PojoServiceAddress [id=0, street=faraznagar, city=chennai, postal_code=667645], getId()=0, getFirst_name()=jai, getLast_name()=ravi, getEmail()=jai@gmail.com, getAddress_id()=0, getBirth_date()=1767-04-04, getCreated_date()=2018-12-21, getAddress()=PojoServiceAddress [id=0, street=faraznagar, city=chennai, postal_code=667645], getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=832279283, toString()=com.ofs.training.java.pojo.PojoServicePerson@319b92f3], PojoServicePerson [id=5, first_name=null, last_name=null, email=null, address_id=0, birth_date=null, created_date=null, address=null, getId()=5, getFirst_name()=null, getLast_name()=null, getEmail()=null, getAddress_id()=0, getBirth_date()=null, getCreated_date()=null, getAddress()=null, getClass()=class com.ofs.training.java.pojo.PojoServicePerson, hashCode()=265119009, toString()=com.ofs.training.java.pojo.PojoServicePerson@fcd6521])</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ofs.training.java.test.ServicePersonTest.testCreate_positive(ServicePersonTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ramachandran.s\AppData\Local\Temp\testng-eclipse-1723603828\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ofs.training.java.test.ServicePersonTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCreate_positive&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ofs.training.java.test.ServicePersonTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreate_positive')
+data.setCell(0, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(0, 3, 30010);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCreate_positive')
+data.setCell(1, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(1, 3, 30008);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreate_positive')
+data.setCell(2, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(2, 3, 30007);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCreate_positive')
+data.setCell(3, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(3, 3, 30006);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCreate_positive')
+data.setCell(4, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(4, 3, 30005);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCreate_positive')
+data.setCell(5, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(5, 3, 30005);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCreate_positive')
+data.setCell(6, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(6, 3, 30005);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCreate_positive')
+data.setCell(7, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(7, 3, 30005);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCreate_positive')
+data.setCell(8, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(8, 3, 312);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCreate_positive')
+data.setCell(9, 2, 'com.ofs.training.java.test.ServicePersonTest')
+data.setCell(9, 3, 36);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ofs.training.java.test.ServicePersonTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testRead_positive</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ofs.training.java.test.ServicePersonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=ramachandran, last_name=shankar, email=ram@gmail.com, address_id...)</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=ajith, last_name=sekar, email=ajith@gmail.com, address_id=18, bi...)</span>
+                <span class="method-start">399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=durai, last_name=raj, email=durai@gmail.com, address_id=0, birth...)</span>
+                <span class="method-start">437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=ganesh, last_name=chandran, email=gan@gmail.com, address_id=0, b...)</span>
+                <span class="method-start">30446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=jai, last_name=ravi, email=jai@gmail.com, address_id=0, birth_da...)</span>
+                <span class="method-start">60459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=praveen, last_name=sabari, email=praveen@gmail.com, address_id=0...)</span>
+                <span class="method-start">90472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=harish, last_name=gopi, email=hari@gmail.com, address_id=0, birt...)</span>
+                <span class="method-start">120481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=vignesh, last_name=tharma, email=vig@gmail.com, address_id=0, bi...)</span>
+                <span class="method-start">150493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=giri, last_name=dharan, email=giri@gmail.com, address_id=0, birt...)</span>
+                <span class="method-start">180504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreate_positive(PojoServicePerson [id=0, first_name=samuel, last_name=praveen, email=sam@gmail.com, address_id=0, bi...)</span>
+                <span class="method-start">210512 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

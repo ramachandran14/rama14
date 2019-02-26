@@ -1,0 +1,126 @@
+.navbar{
+  background-color:#413D3E ;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  width: 200px;
+  height:910px;
+  position:absolute;
+}
+
+ul {
+  list-style-type: Verdana;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #D3EAFD;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.header{
+  background-color: #555F5E;
+  width: 1900px;
+  height:50px;
+  color:#FFFFFF;
+  text-align:center;
+}
+
+.header-text{
+  font-family: verdana;
+  font-size: 24px;
+}
+
+.table-tab{
+  background-color:#8F8E8C;
+  width: 1900px;
+  height:450px;
+  color:#FFFFFF;
+  text-align:center;
+  border-left:200px;
+
+}
+
+.input-tab{
+  text-align:right;
+  border-radius:25px;
+  position:absolute;
+  top: 100px;
+  right: 100px;
+}
+
+.search-icon{
+  background-image: url("../assets/search.png");
+  text-align:right;
+  background-repeat: no-repeat;
+  width: 250px;
+  float: right;
+}
+.search-tab {
+  float: right;
+  position:absolute;
+  top: 100px;
+  right: 25px;
+}
+
+.button-tab{
+  width: 100px;
+  float: right;
+  color: #FC8116;
+  background-color: #FFFFFF;
+  height: 30px;
+  position: absolute; 
+  top:445px;
+  right:50px;
+}
+
+.submit-tab{
+  width: 100px;
+  float: right;
+  color: #FC8116;
+  background-color: #FFFFFF;
+  height: 30px;
+  position: absolute; 
+  top:900px;
+  right:50px;
+}
+
+.form-tab{
+  background-color:#6E6865;
+  width: 1900px;
+  height: 450px;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 200px;
+}
+
+.edit-tab {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  display: none;
+  position:absolute;
+  left:250px;
+  top:150px;
+  color:#020202;
+}
+
+table, td, th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+

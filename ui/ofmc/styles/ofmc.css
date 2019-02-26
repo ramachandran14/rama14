@@ -1,0 +1,153 @@
+.header {
+  background-color: #585858;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: right;
+  position: sticky;
+  z-index:100;
+  top:0;
+  }
+
+.menu-tab {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border: 10px;
+  background-image: url("../assets/logo.png");
+  background-repeat: no-repeat;
+  position: sticky;
+  z-index:100;
+  top:0;
+}
+
+.input-tab {
+  text-align: center-right;
+  box-sizing: border-box;
+  border-right:40px;
+  width: 500px;
+  color: #777;
+  padding: 10px 10px 10px 50px;
+  height: 100px;
+  display:inline;
+}
+
+.search-icon{
+  background-image: url("../assets/search.png");
+  background-repeat: no-repeat;
+  width: 250px;
+  float: right;
+
+}
+
+.button-tab {
+  width: 100px;
+  float: right;
+  color: #FC8116;
+  background-color:#FFFFFF;
+  height:30px;
+  border-bottom:20px;
+  
+}
+
+.headings {
+  font-size:30px;
+  color:#BED1B8;
+  font-family:verdana;
+}
+
+a {
+  color:#BED1B8;
+  font-size:20px;
+  font-family:verdana;
+  text-decoration:none;
+  padding: 10px 0;
+}
+
+.quicklinks {
+  background: url("../assets/quicklinks.png");
+  background-repeat: no-repeat;
+  float: left;
+  height: 500px;
+  width: 33%;
+  background-size: cover;
+}
+
+.isms {
+  background: url("../assets/isms.png");
+  background-repeat: no-repeat;
+  float: left;
+  width: 20%;
+  height: 500px;
+  background-size: cover;
+}
+
+.birthday {
+  background: url("../assets/birthday.png");
+  float: left;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 32%;
+  background-size: cover;
+}
+
+.photos {
+  background: url("../assets/photos.png");
+  float: left;
+  width: 15%;
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+}
+
+.directory {
+  background: url("../assets/directory.png");
+  float: left;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 15%;
+  background-size: cover;  
+}
+
+.information {
+  background-color: #191E24;
+  float: left;
+  height: 330px;
+  width: 50%;
+  color: #FEFEFE; 
+}
+
+.button {
+  background-color: #191E24;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.forum {
+  background-color: #241709;
+  float: left;
+  height: 330px;
+  width: 50%;
+}
+
+.heading {
+  background-color: #241709;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .header, .menu-tab, .input-tab, .search-icon, .button-tab, .headings, .quicklinks, .isms, .birthday, .photos, .directory, .information, .forum {
+        width: 100%;
+    }
+}

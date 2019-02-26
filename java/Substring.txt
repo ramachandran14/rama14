@@ -1,0 +1,7 @@
+"Was it a car or a cat I saw?".substring(9, 12)
+
+
+
+SOLUTION:
+        length of string = 4
+        substring(9, 12) = car

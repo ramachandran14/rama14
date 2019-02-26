@@ -1,0 +1,112 @@
+ USER PERSPECTIVE
+
+
+Problem statement     -  To view show time and seat availability of a specified movie in a particular theatre
+
+Inferred requirements -  show time, seat availability
+
+
+ SYSTEM PERSPECTIVE
+
+
+EVENTS IDENTIFICATION:
+
+ Event 1: User clicking theatre button
+ 
+ Event 2: User selecting theatre name
+ 
+ Event 3: User clicking movie button
+  
+ Event 4: User selecting movie name
+
+event 1,
+        start state  :  Displaying a page with theatre button
+        
+ Precondition:       
+		      Existence of page with theatre button
+		
+		
+ jobs to be done :
+                   - display home page
+				   - load theatreslist
+                   - display theatreslist  
+                   
+       end state   :  Displaying theatre list
+
+
+event 2,
+        start state : Displaying a list of theatres
+		
+ Precondition:
+               Existence of theatres list
+ 
+				   
+jobs to be done :
+                  - get theatrenames
+                  -	process theatredetails
+				  - provide details
+
+       end state :	Displaying theatre details			  
+	
+event 3,
+        start state  :  Displaying a page with movie button
+		
+ Precondition:
+              Existence of page with movie button 
+			  
+ jobs to be done :
+                   - get Userpreference
+				   - display moviedetails
+		
+       end state:  Displaying movie list
+
+event 4, 
+           start state :  Displaying a list of movies
+		
+ Precondition:  
+               Existence of movies list
+			   
+ possibility 1(end state):
+               provide showtime and availability 
+			  
+ jobs to be done :
+                  - get movienames
+                  -	process moviedetails
+				  - provide details
+
+ possibility 2(end state):
+                shows not available   
+
+ jobs to be done :
+                  - get movienames
+                  -	process moviedetails
+				  - noshows
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				   	
+		

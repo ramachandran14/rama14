@@ -1,0 +1,3 @@
+jdbcUrl=jdbc:mysql://localhost:3306/simpsons
+Datasource.user=ramachandran.s
+Datasource.password=demo

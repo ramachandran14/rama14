@@ -1,0 +1,93 @@
+body
+{
+  margin: 0;
+  font-family: sans-serif;
+}
+header
+{
+  text-align:right;
+  background-color: #090C10;
+}
+.logo
+{
+  background: url("../assets/logo.png");
+  backround-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 9%  
+}
+.quicklinks
+{
+  background: url("../assets/quicklinksbg.png");
+  background-repeat: no-repeat;
+  float: left;
+  height: 500px;
+  width: 27%;
+  background-size: cover;
+  color: #C8C896;
+}
+.isms
+{
+  background: url("../assets/ismsbg.png");
+  background-repeat: no-repeat;
+  float: left;
+  width: 23%;
+  height: 500px;
+  background-size: cover;
+  color: #FEFEFE;
+}
+.birthday
+{
+  background: url("../assets/birthdaybg.png");
+  float: left;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 32%;
+  background-size: cover;
+  color: #FEFEFE;
+}
+.photos
+{
+  background: url("../assets/photosbg.png");
+  float: left;
+  width: 18%;
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+  color: #FEFEFE;
+}
+.directory
+{
+  background: url("../assets/directorybg.png");
+  float: left;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 18%;
+  background-size: cover;
+  color: #FEFEFE;  
+}
+.news
+{
+  background: url("../assets/newsbg.png");
+  float: left;
+  background-repeat: no-repeat;
+  height: 330px;
+  width: 50%;
+  background-size: cover;
+  color: #FEFEFE;  
+}
+.forum
+{
+  background: url("../assets/forumbg.png");
+  float: left;
+  background-repeat: no-repeat;
+  height: 330px;
+  width: 50%;
+  background-size: cover;
+  color: #FEFEFE;   
+}
+@media screen and (max-width: 600px) {
+    .logo, .quicklinks, .isms, .birthday, .photos, .directory, .news, .forum {
+        width: 100%;
+    }
+}

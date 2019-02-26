@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/login.js"></script>
+  </head>
+  <body onload="window.setInterval(timer, 5000)">
+    <div class= "content">
+      <center>
+        <h1><span>OFS </span>Sign In</h1>
+        <div >
+          <input id="Username"
+                 class="input-tab" 
+                 type="text"  
+                 placeholder="Username" />
+        </div>
+        <div >
+          <input id="Password" 
+                 class="input-tab" 
+                 type="password" 
+                 placeholder="Password" />
+        </div>
+        <button class="button-tab" 
+                align="left" 
+                onclick="validate()">LOGIN</button></br>
+        <a href="password.html">Reset Password</a>
+        <div id="number">
+          <p id ="increase"></p>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>
